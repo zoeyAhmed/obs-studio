@@ -31,8 +31,6 @@ target_sources(
     linux-pipewire.c
     pipewire.c
     pipewire.h
-    portal.c
-    portal.h
     screencast-portal.c
     screencast-portal.h
 )

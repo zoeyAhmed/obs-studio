@@ -112,6 +112,8 @@ target_sources(
     util/pipe.h
     util/platform.c
     util/platform.h
+    util/portal.c
+    util/portal.h
     util/profiler.c
     util/profiler.h
     util/profiler.hpp
@@ -370,6 +372,8 @@ if(OS_WINDOWS)
   )
 elseif(OS_MACOS)
   list(APPEND public_headers util/apple/cfstring-utils.h)
+elseif(OS_LINUX)
+  list(APPEND public_headers util/portal.h)
 endif()
 
 if(ENABLE_HEVC)

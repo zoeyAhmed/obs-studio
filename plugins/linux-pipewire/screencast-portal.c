@@ -19,8 +19,8 @@
  */
 
 #include "pipewire.h"
-#include "portal.h"
 
+#include <util/portal.h>
 #include <gio/gunixfdlist.h>
 
 enum portal_capture_type {

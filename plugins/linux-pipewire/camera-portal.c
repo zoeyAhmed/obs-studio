@@ -21,9 +21,9 @@
 #include "pipewire.h"
 
 #include "formats.h"
-#include "portal.h"
 
 #include <util/dstr.h>
+#include <util/portal.h>
 
 #include <fcntl.h>
 #include <unistd.h>

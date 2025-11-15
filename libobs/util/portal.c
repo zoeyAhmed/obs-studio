@@ -19,7 +19,6 @@
  */
 
 #include "portal.h"
-#include "pipewire.h"
 
 #include <util/dstr.h>
 

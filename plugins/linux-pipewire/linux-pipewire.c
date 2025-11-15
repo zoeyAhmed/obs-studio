@@ -30,6 +30,8 @@
 #include "camera-portal.h"
 #endif
 
+#include <util/portal.h>
+
 OBS_DECLARE_MODULE()
 OBS_MODULE_USE_DEFAULT_LOCALE("linux-pipewire", "en-US")
 MODULE_EXPORT const char *obs_module_description(void)
